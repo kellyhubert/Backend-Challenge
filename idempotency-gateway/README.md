@@ -76,7 +76,7 @@ Process a payment request.
 ```json
 {
   "amount": 100.0,
-  "currency": "GHS",
+  "currency": "RwF",
   "customer_id": "cust_001",
   "description": "Order #42"
 }
@@ -96,10 +96,10 @@ Process a payment request.
 ```json
 {
   "status": "success",
-  "message": "Charged 100.0 GHS",
-  "transaction_id": "a3f1c2d4-...",
-  "amount": 100.0,
-  "currency": "GHS"
+  "message": "Charged 100.0 RwF",
+  "transaction_id": "1d0261c2-2c7c-49f3-8876-5e7359ab9e8d",
+  "amount": 100,
+  "currency": "RwF"
 }
 ```
 
